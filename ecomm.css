@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brand{
+    width: 20%;
+}
+.menubar{
+    width: 20%;
+}
+.menu{
+display: flex;
+width: 60%;
+}
+.menu ul{
+display: flex;
+align-items: center;
+justify-content: space-around;
+gap: 30px;
+list-style: none;
+}
+.avatar img{
+    width: 40px;
+}
+.mobile-bar{
+    display: none;
+}
+@media (max-width:780px) {
+    .mobile-bar{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+}
