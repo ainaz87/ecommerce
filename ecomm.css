@@ -6,12 +6,16 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 1rem;
 }
 .brand{
     width: 20%;
 }
 .menubar{
-    width: 20%;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
 }
 .menu{
 display: flex;
@@ -38,3 +42,109 @@ list-style: none;
         display: none;
     }
 }
+.sport{
+    justify-content:center;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    
+}
+.tasvir{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    flex-direction: column;
+    gap:1rem;
+}
+.tasvir2{
+    justify-content: center;
+    
+    max-width: 60%;
+    align-items: center;
+    display: flex;
+   /* background-color: aqua;*/
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin-top: 3rem;
+}
+.avatar{
+    width: 50%;
+}
+
+
+.sport img{
+    width: 70%;
+    height: 70%;
+}
+.tasvir2 img{
+    width: 50%;
+    height: 50%;
+}
+h6{
+    text-decoration: line-through;
+}
+
+
+.sneaker{
+    display: flex;
+    align-items:left;
+    flex-direction: column;
+    justify-content:center;
+    width: 50%;
+}
+.addcart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    margin: 10px;
+    
+}
+.addcart div span{
+    padding: 10px;
+}
+.addcart div{
+    padding: 10px;
+    border-radius: 10px;
+}
+.addcart div:first-child{
+    background-color: gray;
+    
+}
+.addcart div:last-child{
+    background-color:orangered ;
+    
+}
+
+.percent{
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+   
+    width: 50%;
+}
+.percent div:first-child{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-right: 10px;
+}
+.percent div:last-child{
+    justify-content: space-around;
+    padding-top: 20px;
+    margin-left: 10px;
+    background-color: orange;
+    color: orangered;
+
+}
+.btnatcart{
+    color: white;
+}
+
