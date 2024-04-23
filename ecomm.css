@@ -43,15 +43,8 @@ padding-bottom: 5px;
 .mobile-bar{
     display: none;
 }
-@media (max-width:780px) {
-    .mobile-bar{
-        display: flex;
-    }
-    .menu{
-        display: none;
-    }
-}
-.sport{
+
+.sport, .sport2{
     justify-content:center;
     width: 70%;
     display: flex;
@@ -206,4 +199,68 @@ main img{
         top: 3rem;
         opacity: 0.8;
     }       
+}
+
+.image2{
+    display: none;
+    width: 0;
+    height: 0;
+}
+.sport2 img{
+    width: 50%;
+    height: 50%;
+
+}
+.image2show{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    gap:1rem;  
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 7rem;
+}
+.mainblur{
+    filter: blur(8px);
+}
+.mobilemenoshow{
+    display: none;
+}
+.mobilemenoshoww{
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background-color: rgb(224, 200, 247);
+    padding: 10px;
+}
+.mobilemenoshoww ul{
+list-style: none;
+margin-top: 2rem;
+}
+.mobilemenoshoww ul li{
+    margin-top: 20px;
+}
+.closs{
+    align-self:left;
+}
+
+@media (max-width:780px) {
+    .mobile-bar{
+        display: flex;
+    }
+    .menu{
+        display: none;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .addcart{
+            flex-direction: column;
+    }
 }
